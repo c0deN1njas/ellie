@@ -4,7 +4,7 @@
 }
 body {
   color: red;
-  background-color: pink;
+  background: pink;
   font-family: garamond, constantia, sans-serif;
 }
 h1 {
@@ -31,4 +31,12 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+.love-message {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 50px;
+    color: black;
+    width: 100%;
+    font-family: "arial black", sans-serif;
 }
