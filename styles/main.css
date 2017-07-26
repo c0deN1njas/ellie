@@ -4,7 +4,7 @@
 }
 body {
   color: red;
-  background-color: pink;
+  background: rgba(255, 182, 193, 0.5);
   font-family: garamond, constantia, sans-serif;
 }
 h1 {
