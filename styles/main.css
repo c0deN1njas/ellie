@@ -13,30 +13,59 @@ h1 {
 h3 {
   padding: 15px;
 }
-ul {
-  padding: 10px;
-  margin-left: 20px;
-  list-style: square;
-}
-ul li {
-  color: purple;
-}
 img {
   width: 300px;
 }
-a {
-  color: green;
+.love-message {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 50px;
+  color: black;
+  width: 100%;
+  font-family: "arial black", sans-serif;
+}
+nav {
+  background-color: black;
+}
+nav ul {
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+}
+nav ul li {
+  padding: 5px;
+  color: purple;
+  display: inline;
+}
+nav ul li:hover {
+  background: red;
+}
+nav ul li a {
+  color: white;
   font-size: 20px;
   text-decoration: none;
 }
-a:hover {
+nav ul li a:hover {
   text-decoration: underline;
 }
-.love-message {
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 50px;
-    color: black;
-    width: 100%;
-    font-family: "arial black", sans-serif;
+div.circle {
+  width: 100px;
+  height: 100px;
+  background: green;
+  margin: 1em;
+  border-radius: 50%;
+}
+div.square {
+  width: 100px;
+  height: 100px;
+  background: rgba(255,255,255,.8);
+  margin: 1em;
+}
+div.triangle {
+  width: 100px;
+  height: 100px;
+  margin: 1em;
+  border-bottom: 100px solid red;
+  border-left:  100px solid transparent;
+  border-right: 100px solid transparent;
 }
