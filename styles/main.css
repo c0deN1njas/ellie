@@ -62,10 +62,10 @@ div.square {
   margin: 1em;
 }
 div.triangle {
-  width: 100px;
+  width: 0;
   height: 100px;
   margin: 1em;
   border-bottom: 100px solid red;
-  border-left:  100px solid transparent;
-  border-right: 100px solid transparent;
+  border-left:  50px solid transparent;
+  border-right: 50px solid transparent;
 }
